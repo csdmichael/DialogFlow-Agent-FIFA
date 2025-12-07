@@ -40,7 +40,7 @@ Returns agent answers to the Angular app
 
 **📁 Project Structure**
 
-dialogFlowAgentFifa2026/
+dialogFlowAgentFifa/
 ├── backend/
 │   ├── src/
 │   │   └── server.ts               # Express server + Dialogflow client logic

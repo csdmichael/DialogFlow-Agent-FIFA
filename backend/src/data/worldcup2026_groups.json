@@ -1,0 +1,79 @@
+{
+  "tournament": "FIFA World Cup 2026",
+  "updated": "2025-12-07",
+  "notes": "Groups A-L, placeholders retained for playoff slots where applicable.",
+  "groups": {
+    "Group A": [
+      "Mexico",
+      "South Korea",
+      "South Africa",
+      "UEFA Playoff D (Denmark/Macedonia/Czechia/Ireland)"
+    ],
+    "Group B": [
+      "Canada",
+      "Switzerland",
+      "Qatar",
+      "UEFA Playoff A (Italy/Northern Ireland/Wales/Bosnia & Herzegovina)"
+    ],
+    "Group C": [
+      "Brazil",
+      "Morocco",
+      "Scotland",
+      "Haiti"
+    ],
+    "Group D": [
+      "United States",
+      "Australia",
+      "Paraguay",
+      "UEFA Playoff C (Turkey/Romania/Slovakia/Kosovo)"
+    ],
+    "Group E": [
+      "Germany",
+      "Ecuador",
+      "Ivory Coast",
+      "Curaçao"
+    ],
+    "Group F": [
+      "Netherlands",
+      "Japan",
+      "Tunisia",
+      "UEFA Playoff B (Ukraine/Sweden/Poland/Albania)"
+    ],
+    "Group G": [
+      "Belgium",
+      "Iran",
+      "Egypt",
+      "New Zealand"
+    ],
+    "Group H": [
+      "Spain",
+      "Uruguay",
+      "Saudi Arabia",
+      "Cabo Verde"
+    ],
+    "Group I": [
+      "France",
+      "Senegal",
+      "Norway",
+      "FIFA Playoff 2 (Bolivia/Suriname/Iraq)"
+    ],
+    "Group J": [
+      "Argentina",
+      "Austria",
+      "Algeria",
+      "Jordan"
+    ],
+    "Group K": [
+      "Portugal",
+      "Colombia",
+      "Uzbekistan",
+      "IC Playoff A-D (DRC/Jamaica/New Caledonia/other)"
+    ],
+    "Group L": [
+      "England",
+      "Croatia",
+      "Panama",
+      "Ghana"
+    ]
+  }
+}

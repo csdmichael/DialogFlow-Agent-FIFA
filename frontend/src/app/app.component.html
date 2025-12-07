@@ -1,0 +1,22 @@
+<div class="chat-wrapper">
+  <h1>FIFA World Cup 2026 Bot</h1>
+  <div class="chat-container">
+    <div class="message-list">
+      <div *ngFor="let message of messages" class="message-item">
+        <div [ngClass]="{'user-message-bubble': message.type === 'user', 'bot-message-bubble': message.type === 'bot'}">
+          {{ message.text }}
+          <span class="timestamp">{{ message.timestamp | date:'shortTime' }}</span>
+        </div>
+      </div>
+    </div>
+    <div class="input-area">
+      <input 
+        [(ngModel)]="userMessage" 
+        (keyup.enter)="sendMessage()" 
+        placeholder="Ask about groups, schedules, etc." 
+        aria-label="Chat input field"
+      />
+      <button (click)="sendMessage()">Send</button>
+    </div>
+  </div>
+</div>

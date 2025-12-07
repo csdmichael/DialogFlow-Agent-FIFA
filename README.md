@@ -1,11 +1,13 @@
-⚽ **Dialogflow FIFA World Cup 2026 Chat Agent**
+**⚽ Dialogflow FIFA World Cup 2026 Chat Agent**
+
 Angular Frontend + Node.js/TypeScript Backend
 
 This project implements a conversational chat interface using Angular (Frontend) and Node.js/TypeScript (Backend) to interact with a Google Dialogflow agent grounded in data about the FIFA World Cup 2026.
 
 All sensitive Dialogflow authentication is handled in the backend to ensure security.
 
-🌍 **Project Overview**
+
+**🌍 Project Overview**
 
 This chatbot answers user questions about the FIFA World Cup 2026, including groups, teams, match details, and more.
 It uses Google Dialogflow for Natural Language Understanding (NLU) and response generation.
@@ -35,7 +37,9 @@ Sends user messages to the agent
 
 Returns agent answers to the Angular app
 
-📁 **Project Structure**
+
+**📁 Project Structure**
+
 dialogFlowAgentFifa2026/
 ├── backend/
 │   ├── src/
@@ -57,7 +61,9 @@ dialogFlowAgentFifa2026/
     ├── package.json                 # Angular dependencies
     └── tsconfig.json
 
-🛠️ **Backend Setup (Node.js + Dialogflow)**
+
+**🛠️ Backend Setup (Node.js + Dialogflow)**
+
 Prerequisites
 
 Node.js + npm installed
@@ -100,7 +106,9 @@ Backend runs at:
 
 👉 http://localhost:3000
 
-🚀 **Frontend Setup (Angular)**
+
+**🚀 Frontend Setup (Angular)**
+
 Prerequisites
 
 Install Angular CLI:
@@ -141,7 +149,8 @@ Google Cloud Dialogflow
 
 FIFA World Cup 2026 structured data grounding
 
-📌** Future Enhancements (Optional)**
+
+**📌 Future Enhancements (Optional)**
 
 If you want, I can generate any of these:
 
@@ -156,3 +165,5 @@ CI/CD (GitHub Actions / Cloud Build)
 Docker containerization
 
 Automated tests
+
+Just tell me!

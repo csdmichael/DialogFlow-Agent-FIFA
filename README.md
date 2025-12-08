@@ -40,28 +40,7 @@ Returns agent answers to the Angular app
 
 **📁 Project Structure**
 
-'''
-dialogFlowAgentFifa/
-├── backend/
-│   ├── src/
-│   │   └── server.ts                 # Express server + Dialogflow client logic
-│   ├── package.json                  # Backend dependencies
-│   ├── tsconfig.json                 # TypeScript config
-│   └── dialogflow-key.json           # <-- Place your service account key here
-└── frontend/
-├── src/
-│   ├── app/
-│   │   ├── app.component.css
-│   │   ├── app.component.html
-│   │   ├── app.component.ts      # Main chat UI logic
-│   │   ├── app.module.ts         # Angular modules
-│   │   └── chat.service.ts       # REST API calls to backend
-│   └── ... (standard Angular files)
-├── angular.json
-├── package.json                  # Angular dependencies
-└── tsconfig.json
-'''
-
+<img width="734" height="510" alt="image" src="https://github.com/user-attachments/assets/e6b8c7c2-4773-43c8-ad6e-1e5112b60d66" />
 
 
 **🛠️ Backend Setup (Node.js + Dialogflow)**

@@ -42,24 +42,23 @@ Returns agent answers to the Angular app
 
 dialogFlowAgentFifa/
 ├── backend/
-│   ├── src/
-│   │   └── server.ts               # Express server + Dialogflow client logic
-│   ├── package.json                # Backend dependencies
-│   ├── tsconfig.json               # TypeScript config
-│   └── dialogflow-key.json         # <-- Place your service account key here
-│
+│ ├── src/
+│ │ └── server.ts # Express server + Dialogflow client logic
+│ ├── package.json # Backend dependencies
+│ ├── tsconfig.json # TypeScript config
+│ └── dialogflow-key.json # <-- Place your service account key here
 └── frontend/
-    ├── src/
-    │   ├── app/
-    │   │   ├── app.component.css
-    │   │   ├── app.component.html
-    │   │   ├── app.component.ts     # Main chat UI logic
-    │   │   ├── app.module.ts        # Angular modules
-    │   │   └── chat.service.ts      # REST API calls to backend
-    │   └── ... (standard Angular files)
-    ├── angular.json
-    ├── package.json                 # Angular dependencies
-    └── tsconfig.json
+├── src/
+│ ├── app/
+│ │ ├── app.component.css
+│ │ ├── app.component.html
+│ │ ├── app.component.ts # Main chat UI logic
+│ │ ├── app.module.ts # Angular modules
+│ │ └── chat.service.ts # REST API calls to backend
+│ └── ... (standard Angular files)
+├── angular.json
+├── package.json # Angular dependencies
+└── tsconfig.json
 
 
 **🛠️ Backend Setup (Node.js + Dialogflow)**
